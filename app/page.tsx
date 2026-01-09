@@ -71,9 +71,14 @@ export default function Home() {
           </div>
 
           <div className="flex justify-end mt-10">
-            <button className="bg-emerald-500 hover:bg-emerald-600 text-black rounded-xl px-6 py-2 font-medium transition">
+            <a
+              href="https://discord.com/oauth2/authorize?client_id=1393382460011581610&permissions=8&integration_type=0&scope=bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-emerald-500 hover:bg-emerald-600 text-black rounded-xl px-6 py-2 font-medium transition"
+            >
               Get Started →
-            </button>
+            </a>
           </div>
         </main>
 
