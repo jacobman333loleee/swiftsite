@@ -82,7 +82,13 @@ export default function Home() {
   );
 }
 
-function Feature({ title, description }) {
+// ------------------- Fixed Feature component with TypeScript types -------------------
+interface FeatureProps {
+  title: string;
+  description: string;
+}
+
+function Feature({ title, description }: FeatureProps) {
   return (
     <div className="bg-zinc-900/70 border border-zinc-800 rounded-2xl shadow-lg p-6">
       <h3 className="font-semibold text-lg mb-2">{title}</h3>
